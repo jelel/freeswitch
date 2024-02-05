@@ -1,7 +1,7 @@
 # freeswitch
 极速 freeswitch
 
-freeswitch + golang esl （inboud outbound） 内外联混合模式
+freeswitch + golang esl （inbound outbound） 内外联混合模式
 
 支持 
 呼入技能组
