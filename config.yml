@@ -5,10 +5,10 @@ esl:
 
 net:
   type: ws
-  address: chat.51lpg.cn
+  address: xx.xx.xx.xx
   #127.0.0.1:9001
   #mqd-chat.haoyunqi.com.cn
-  tokenKey: 2019007
+  tokenKey: xxx
   len: 1
 
 curl:
