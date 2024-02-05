@@ -1,0 +1,50 @@
+
+esl:
+  node: 1
+  group: fs-121
+
+net:
+  type: ws
+  address: chat.51lpg.cn
+  #127.0.0.1:9001
+  #mqd-chat.haoyunqi.com.cn
+  tokenKey: 2019007
+  len: 1
+
+curl:
+  port: 6067
+  recordDir: d:/FreeSWITCH/recordings
+  asyncUrl: 127.0.0.1:8085
+  robotUrl: http://localhost:6067
+fsIn:
+  open: true
+  address: 127.0.0.1:8021
+  password: ClueCon
+  maxRetry: 100
+
+fsOut:
+  open: true
+  address: :8086
+
+db:
+  driverName: mysql
+  host: 127.0.0.1
+  port: 3306
+  userName: root
+  password: Jelel0701!*!99
+  dbName: fs
+  defaultCode: utf8mb4
+  maxIdle: 10
+  maxOpen: 20
+  showSql: false
+  showExecTime: false
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  pwd:
+  maxIde: 10
+  maxActive: 10
+  db: 1
+
+
