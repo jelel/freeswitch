@@ -7,7 +7,6 @@ net:
   type: ws
   address: xx.xx.xx.xx
   #127.0.0.1:9001
-  #mqd-chat.haoyunqi.com.cn
   tokenKey: xxx
   len: 1
 
@@ -31,7 +30,7 @@ db:
   host: 127.0.0.1
   port: 3306
   userName: root
-  password: Jelel0701!*!99
+  password: 
   dbName: fs
   defaultCode: utf8mb4
   maxIdle: 10
